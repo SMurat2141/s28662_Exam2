@@ -1,27 +1,28 @@
-# Books API (.NET 8)
+# Books Complex API (.NET 8)
 
-Simple REST API built with ASP.NET Core 8.0 and Entity Framework Core (Code‑First).  
-No external CQRS helpers, mapping libraries, or validation frameworks were used—just plain EF Core and MVC controllers.
+A multi‑project, layered solution:
 
-## Running locally
+* **Books.Domain** – entities and repository abstractions
+* **Books.Infrastructure** – EF Core DbContext + generic repository & unit‑of‑work implementations
+* **Books.Api** – ASP.NET Core Web API (controllers, DTOs)
+
+<div align="center"><strong>No MediatR, AutoMapper, FluentValidation, or similar packages used.</strong></div>
+
+## Run locally
 
 ```bash
 dotnet restore
-dotnet run --project BooksApi
+dotnet run --project Books.Api
 ```
 
-The API starts on **https://localhost:5001** (or the next available port).  
-Swagger UI is enabled in `Development` environment.
+Swagger UI will be available at `https://localhost:5001/swagger`.
 
-## Endpoints
+## Highlights
 
-| Method | Route | Description |
-|--------|-------|-------------|
-| GET | `/api/books?fromReleaseDate=2024-01-01&toReleaseDate=2024-12-31` | Returns books filtered by release date. Sorted by release date (desc) then publishing house (asc). |
-| POST | `/api/books` | Adds a new book. Creates the publishing house automatically if it doesn't exist. |
+* Generic repository + Unit‑of‑Work for clean separation.
+* Paging & filtering on **GET /api/books** (`page`, `pageSize`, optional release‑date window).
+* Full CRUD for books (GET/id, POST, PUT, DELETE).
+* Publishing house auto‑creation when posting books.
+* In‑memory provider by default for quick start – swap to SQL provider by changing DI.
 
-See `Models/DTOs` for request/response contracts.
-
----
-
-Generated 2025-06-10T09:42:07.521669 UTC
+Generated 2025-06-10T09:47:15.273770 UTC
