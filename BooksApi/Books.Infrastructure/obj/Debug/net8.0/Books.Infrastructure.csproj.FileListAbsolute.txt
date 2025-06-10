@@ -1,0 +1,15 @@
+C:\Users\s28662\Desktop\BooksApi\Books.Infrastructure\bin\Debug\net8.0\Books.Infrastructure.deps.json
+C:\Users\s28662\Desktop\BooksApi\Books.Infrastructure\bin\Debug\net8.0\Books.Infrastructure.dll
+C:\Users\s28662\Desktop\BooksApi\Books.Infrastructure\bin\Debug\net8.0\Books.Infrastructure.pdb
+C:\Users\s28662\Desktop\BooksApi\Books.Infrastructure\bin\Debug\net8.0\Books.Domain.dll
+C:\Users\s28662\Desktop\BooksApi\Books.Infrastructure\bin\Debug\net8.0\Books.Domain.pdb
+C:\Users\s28662\Desktop\BooksApi\Books.Infrastructure\obj\Debug\net8.0\Books.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\s28662\Desktop\BooksApi\Books.Infrastructure\obj\Debug\net8.0\Books.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\s28662\Desktop\BooksApi\Books.Infrastructure\obj\Debug\net8.0\Books.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\s28662\Desktop\BooksApi\Books.Infrastructure\obj\Debug\net8.0\Books.Infrastructure.AssemblyInfo.cs
+C:\Users\s28662\Desktop\BooksApi\Books.Infrastructure\obj\Debug\net8.0\Books.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\s28662\Desktop\BooksApi\Books.Infrastructure\obj\Debug\net8.0\Books.In.4D83BBDE.Up2Date
+C:\Users\s28662\Desktop\BooksApi\Books.Infrastructure\obj\Debug\net8.0\Books.Infrastructure.dll
+C:\Users\s28662\Desktop\BooksApi\Books.Infrastructure\obj\Debug\net8.0\refint\Books.Infrastructure.dll
+C:\Users\s28662\Desktop\BooksApi\Books.Infrastructure\obj\Debug\net8.0\Books.Infrastructure.pdb
+C:\Users\s28662\Desktop\BooksApi\Books.Infrastructure\obj\Debug\net8.0\ref\Books.Infrastructure.dll
